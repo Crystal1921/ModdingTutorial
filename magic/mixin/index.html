@@ -2698,6 +2698,8 @@
       
         
       
+        
+      
     
     
     
@@ -2801,6 +2803,27 @@
   
   <span class="md-ellipsis">
     额外
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../11-extra/tips/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    小贴士
   </span>
   
 
@@ -2953,6 +2976,7 @@ public abstract class MixinPlayer {
         return 0;
     }
 </code></pre>
+<p>对于mixin的目标实例，可以通过<code>((TargetClass) (Object) this)</code>获得，虽然IDEA会提示你有问题，但是实际上是没有问题的</p>
 <h2 id="_3">添加新方法</h2>
 <p>当然，mixin也允许你在类中凭空添加一个自己的方法，也就是重写方法</p>
 <p>首先，我们要准备一个接口，这个方法就是我们将要写的新方法了</p>
